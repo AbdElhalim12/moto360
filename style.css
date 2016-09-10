@@ -1,117 +1,188 @@
 /* CSS Document */
-body{
-	margin: 0;
+/*.container{
 	width: auto;
-	font-family: 'Roboto', sans-serif;
-}
-.container{
-	width: 1000px;
-	margin: auto;
-	height: 1500px;
-}
-.navbar{
-	background-color: #FFF;
-	color: #000000;
-}
-ul{
-	list-style: none;
-	padding-left: 0;
-	overflow: hidden;
-	width: 50%;
-}
+	height: 100px;
 
-li{
-	float: left;
-	padding: 10px;
-	
 }
-input {
+*/
+ul {
+	list-style-type: none;
+	display: inline-block;
 	float: right;
-	margin-top: 10px;
-}
-.container .header{
-	height: 500px;
-	background-color: #18DA9D;
+	margin-right: 20px;
+	color : white;
 }
 
-.wrapper {
-	background:transparent url(https://www.motorola.com/sites/default/files/styles/hero_-_background_image_desktop_1x/public/library/storage/products/moto-360/desktop/global/moto_360_hero_d_2-3be2j3e66.jpg?itok=NG8zj33Y&amp;timestamp=1472829439) no-repeat center center;
-	height: 500px;
-}
-p{
-font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
-line-height: 20px;
+li {
+	display: inline-block;
+	margin-right: 10px;
+transition: 0.1s;
 }
 
-.images{
- 
-    width: 1000px;
-    float: left;
-    padding-left: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #333333;
-    padding-top: 20px;
-    padding-right: 0;
-
-
+ul li:hover{
+	color: aqua;
+	transition-delay: 0.1s;
 }
-.images .icons{
-	display:inline-block;
-    width: 247px; 
-    height: 240px; 
-	margin-left: 0;
--webkit-transition:all 0.5s ease-in-out;
--moz-transition:all 0.5s ease-in-out;
--o--transition:all 0.5s ease-in-out;
--transition:all 0.5s ease-in-out;
+
+.logo {
 
 }
 
-.icons:hover img{
--webkit-transform: scale(0.5);
--moz-transform: scale(0.5);
--o-transform: scale(0.5);
-transform: scale(0.5);
- }
-
-p{
-	margin-bottom: 1px;
-}
-
-.specific{
-	width: 100%;
-	height: 427px;
-	margin-top: 270px;
-	background-color: #EED1C9;
-	font-family: 'Roboto', sans-serif;
-}
-
-.specific h2{
-	color: #07BCD4;
-	margin-left: 510px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.specific .imghvr-fade{
-	float: left;
-	width: 50%;
+.header {
+	background-image: url(img/macbook.jpeg);	
+/*	background-image: url(header.jpg);*/
+	/*background-color: #3dacff;*/
+	background-size: 1300px;
+	width: auto;
+	height: 400px;
+	padding: 0;
 	
 }
+.overlay{
+	margin-top: 0px;
+	height: 3%0PX;
+ width: 100%;
+		background-image: url(img/macbook.jpeg);
+  background-position-y: -200px;
+	background-position-x: -10px;
+}
+/*.overlay {
+	top:0;
+	height: 600PX;
+ width: 100%;
+	background-color:blue;
+   opacity: 0.3;
+left: 0;
+}*/
 
-.specific h3{
-	margin-left: 510px;
-	font-family: 'Roboto', sans-serif;
+/*.header:hover {
+	opacity: 0.1;
+	color: #000000;
+}*/
+	
+body {
+	margin-top: -20px;
+	margin: 0;
+font-family: 'Montserrat', sans-serif;
 }
-.specific p{
-	margin-left : 510px;
-	font-family: 'Roboto', sans-serif;
+
+h1 {
+	margin-top: auto;
+	margin-left: 10px;
+	 transition: color 1000ms linear;
+	font-family: 'Montserrat', sans-serif;
+	
+
 }
-.specific .android{
-	margin-left: 510px;
-	font-family: 'Roboto', sans-serif;
+
+pre {
+	margin-top: auto;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
 }
-.specific .battery{
-	margin-left: 510px;
-	font-family: 'Roboto', sans-serif;
+
+
+.h11 {
+	font-size: 19px;
+	color :black;
+	margin-top: 10px;
+	margin-bottom: auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.web design {
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 10px;
+width: 200px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.mobile {
+	display: inline-block;
+	margin-left: 100px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.concept {
+	margin-top: 75px;
+	color: black;
+	height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 90px;
+}
+
+.design {
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 1px;
+	color: black;
+font-family: 'Montserrat', sans-serif;
+}
+
+h13 {
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.work {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -20px;
+	height: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+	text-align: center;
+	color: black;
+margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h10 {
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.all {
+	text-align: center;
+	margin-top: -20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.portflio {
+	margin-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	z-index: -1;
+	width: 500px;
+	margin-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+
+.what {
+	text-align: center;
+	height: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.us {
+	margin-left: 20px;
+	margin-top: 60px;
+	height: 70px;
+}
+
+.logo .icon i {
+	color: black;
+	margin-top: 30px;
 }
