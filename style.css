@@ -49,6 +49,23 @@ input {
 	
 }
 
+.social {
+	margin-top: 90px;
+	margin-right: 20px;
+	background-color: rgba(44, 44, 44, 0.5);
+	position: relative;
+	width: 194px;
+	float: right;
+	border-radius: 9px;
+	color: white;
+	height: 40px;
+}
+.social img{
+	margin-top: 3px;
+	width: 35px;
+	padding-right: 10px;
+
+}
 .wrapper {
 	background:transparent url(https://www.motorola.com/sites/default/files/styles/hero_-_background_image_desktop_1x/public/library/storage/products/moto-360/desktop/global/moto_360_hero_d_2-3be2j3e66.jpg?itok=NG8zj33Y&amp;timestamp=1472829439) no-repeat center center;
 	height: 500px;
@@ -129,4 +146,13 @@ p{
 .specific .battery{
 	margin-left: 510px;
 	font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #000;
+	background-image: url('searchicon.png');
+	    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+	width: 150px;
 }
