@@ -1,0 +1,44 @@
+
+li a, .Button {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+
+.dropdown:hover .Button {
+  border-bottom: 3px solid #1784FF;
+  transition: all .3s ease-in;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.content {
+    display: none;
+    position: fixed;;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 15px ;
+}
+
+.content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+    padding: 15px;
+
+}
+
+.content a:hover {background-color: #f1f1f1; padding:15px;}
+
+.dropdown:hover .content {
+    display: block;
+    padding: 15px;
+}

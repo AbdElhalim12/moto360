@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Moto 360</title>
 <link href="style.css" rel="stylesheet" type="text/css">
+<link href="navbar.css" rel="stylesheet" type="text/css">
 <link href="hover.css" rel="stylesheet" media="all">
 <link href="imagehover.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -16,13 +17,20 @@
 		<img src="img/twitter.png">
 		<img src="img/google-plus.png">
 		<img src="img/pinterest.png">
-		</div>
+	</div>
 <div class="navbar">
 <input type="text" name="search" placeholder="Search..">
 <ul>
 	<li>Home</li>
 	<li>Work</li>
-	<li>About</li>
+  <li class="dropdown">
+	<a href="#" class="Button">dropdown</a>
+		<div class="content">
+			<a href="link1">Link 1</a>
+			<a href="link2">Link 2</a>
+			<a href="link3">Link 3</a>
+		</div>
+	</li>
 	<li>Contact</li>
 	</ul>
 	</div>
@@ -74,7 +82,14 @@
 	<h3 class="android">Works with Android™ and iPhone</h3>
 		<br> <div class="battery">Battery life
 	Mens’ 42mm and Womens’: 300mAh battery - Up to 1.5 days of mixed use with Ambient off. Up to a full day of mixed use with Ambient on.</br></div></p>
-
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
 </div>
 </div>
 </body>
